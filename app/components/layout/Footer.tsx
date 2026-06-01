@@ -96,18 +96,18 @@ export function Footer() {
             </div>
             <ul className="space-y-3 text-sm" style={mutedStyle}>
               <li>
-                <Link href="#about" className="hover:underline" style={linkStyle}>
+                <Link href="/about-us" className="hover:underline" style={linkStyle}>
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:underline" style={linkStyle}>
+                <Link href="/services" className="hover:underline" style={linkStyle}>
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="#team" className="hover:underline" style={linkStyle}>
-                  Our Team
+                <Link href="/blog" className="hover:underline" style={linkStyle}>
+                  Blog
                 </Link>
               </li>
             </ul>
